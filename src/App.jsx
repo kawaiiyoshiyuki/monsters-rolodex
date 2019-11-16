@@ -19,10 +19,6 @@ class App extends Component {
       .then(users => this.setState({monsters: users}));
   }
 
-  // filterMonsters(value) {
-  //   this.setState({search: value})
-  // }
-
   render() {
     const { monsters, searchField } = this.state;
     const filteredMonsters = monsters.filter( monster =>
