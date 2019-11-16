@@ -1,3 +1,3 @@
 # Monsters Rolodex - React app
-developemnt: `npm start`  
+development: `npm start`  
 deployment: `yarn run build`
